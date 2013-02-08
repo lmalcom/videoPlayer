@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+		<script src="http://www.youtube.com/iframe_api"></script>
+		<script src="dialog.js"></script>
+		<link rel="stylesheet" type="text/css" href="dialog.css"></link> 
+	</head>
+	<body>
+		<p id="text"></p>
+		<div id="dialog" class="dialogContainer">
+			<div class="dialogHeader"></div>
+			<div id="yt" class="vidPlayer"></div>
+			<div class="dialogPlaylist">
+				<ul id="videos">
+				</ul>
+			</div> 
+		</div>
+		<script> 	
+			
+			//onReady
+			var $doc = $(document); 			
+			$doc.ready(function(){					
+			
+				/*CREATE DIALOG*/
+				var dialog = createDialog('dialog', {video:'i3Jv9fNPjgk'}); 
+					 
+			}); 
+		</script>
+	</body>
+</html>
