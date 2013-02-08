@@ -1,0 +1,45 @@
+.dialogContainer{
+  -webkit-transition: opacity .5s; 
+	position:absolute; 
+	top:0px; 
+	left:0px; 
+	width:640px; 
+	display:inline-block; 
+}			
+.dialogContainer:hover .autohide{
+	opacity: 1;  
+}
+.dialogHeader{
+	-webkit-transition: opacity .5s; 
+	position: relative; 
+	display:block; 
+	width:100%; 
+	height:40px; 	 
+	opacity:0; 
+	background:gray;
+}
+.vidPlayer{
+	position: relative; 
+	display:none; 
+	width:100%; 
+	height:390px; 
+	opacity:1 !important; 
+}
+.dialogPlaylist{
+	-webkit-transition: opacity .5s; 
+	position: relative; 
+	display:none; 
+	width:100%; 
+	height:100px; 
+	opacity:0; 
+	background: gray; 	
+}	
+
+.draggable{
+	
+}
+
+.autohide{
+	-webkit-transition: opacity .5s; 
+	opacity:0; 
+}
